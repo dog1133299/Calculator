@@ -1,0 +1,101 @@
+* {
+	margin: 0 auto;
+	padding: 0;
+	font-family: 'Square721 BT','Montserrat', sans-serif;
+	font-weight: 600;
+} 
+body{
+	background-image: url(../src/img/BG.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+}
+#calculator{
+	width: 400px;
+	height: 510px;
+	position: absolute;
+	top: 50%;
+	left:50%;
+	margin: -255px 0 0 -200px;
+	background-color: orange;
+	background-image: url(../src/img/wood.jpg);
+	text-align: center;
+	border-radius: 40px;
+	box-shadow:  3px 6px 10px 0 rgba(0,0,0,0.5), -3px -6px 10px 0 rgba(0,0,0,0.5);
+	box-shadow: inset 3px 4px 10px 0 rgba(0,0,0,0.5),inset -3px -6px 12px 0 rgba(0,0,0,0.5);
+	-moz-box-shadow:  3px 6px 10px 0 rgba(0,0,0,0.5), -3px -6px 10px 0 rgba(0,0,0,0.5);
+	-moz-box-shadow: inset 3px 4px 10px 0 rgba(0,0,0,0.5),inset -3px -6px 12px 0 rgba(0,0,0,0.5);
+  	-webkit-box-shadow:  3px 6px 10px 0 rgba(0,0,0,0.5), -3px -6px 10px 0 rgba(0,0,0,0.5);
+	-webkit-box-shadow: inset 3px 4px 10px 0 rgba(0,0,0,0.5),inset -3px -6px 12px 0 rgba(0,0,0,0.5);
+}
+#message{
+	color: white;
+	width: 100%;
+	height: 30px;
+	line-height: 30px;
+	margin-top: 10px;
+	display: block;
+ 
+}
+#display{
+	width: 75%;
+	height: 50px;
+	padding: 10px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	display: block;
+	background-color: rgb(150,150,150);
+	border-radius: 5px;
+	box-shadow: inset 0 0 6px 2px rgba(0,0,0,0.5);
+	-moz-box-shadow: inset 0 0 6px 2px rgba(0,0,0,0.5);
+  	-webkit-box-shadow: inset 0 0 6px 2px rgba(0,0,0,0.5);
+}
+#formula{
+	
+	font-size: 25px;
+	text-align: right;
+}
+#answer{
+	font-size: 20px;
+	text-align: right;
+
+}
+.board{
+	width: 80%;
+
+}
+.button{
+	color: white;
+	width: 60px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 25px;
+	
+	margin: 10px;
+	background-color: rgb(50, 50, 50);
+	float: left;
+	cursor: pointer;
+	box-shadow: inset 1px 2px 4px 1px rgba(255, 255, 255,0.2),inset -1px -2px 4px 1px rgba(0, 0, 0,0.5),0 0 6px 3px rgba(0,0,0,0.5);
+	-moz-box-shadow: inset 1px 2px 4px 1px rgba(255, 255, 255,0.2),inset -1px -2px 4px 1px rgba(0, 0, 0,0.5),0 0 6px 3px rgba(0,0,0,0.5);
+  -webkit-box-shadow: inset 1px 2px 4px 1px rgba(255, 255, 255,0.2),inset -1px -2px 4px 1px rgba(0, 0, 0,0.5),0 0 6px 3px rgba(0,0,0,0.5);
+}
+.button:active{
+	-moz-box-shadow:  inset 1px 2px 4px 1px rgba(255, 255, 255,0.2),inset -1px -2px 4px 1px rgba(0, 0, 0,0.5),0 0 7px 4px rgba(0,0,0,0.5);
+  	-webkit-box-shadow:  inset 1px 2px 4px 1px rgba(255, 255, 255,0.2),inset -1px -2px 4px 1px rgba(0, 0, 0,0.5),0 0 7px 4px rgba(0,0,0,0.5);
+	box-shadow:  inset 1px 2px 4px 1px rgba(255, 255, 255,0.2),inset -1px -2px 4px 1px rgba(0, 0, 0,0.5),0 0 7px 4px rgba(0,0,0,0.5);
+}
+.function{
+	border-radius: 5px;
+	background-color:rgb(30, 30, 90);
+
+}
+
+.digit{
+	border-radius: 30px;
+}
+#clear{
+	background-color:rgb(90, 20, 20);
+}
+#equal{
+	width: 140px;
+}
