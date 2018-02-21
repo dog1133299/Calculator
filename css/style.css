@@ -87,15 +87,19 @@ body{
 .function{
 	border-radius: 5px;
 	background-color:rgb(30, 30, 90);
-
 }
-
-.digit{
-	border-radius: 30px;
-}
-#clear{
-	background-color:rgb(90, 20, 20);
-}
-#equal{
-	width: 140px;
-}
+.digit{border-radius: 30px;}
+#clear{background-color:rgb(90, 20, 20);}
+#equal{width: 140px;}
+.msg{
+ 	width: 100%;
+ 	position: absolute;
+ 	bottom: 0;
+ 	color: white;
+ 	text-align: center;
+ 	font-family: 'Square721 BT','Montserrat', sans-serif;
+ 	font-size: 20px;
+ }
+ .msg>a{
+ 	text-decoration: none; 
+ }
